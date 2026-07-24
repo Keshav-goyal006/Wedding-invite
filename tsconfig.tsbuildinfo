@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/animations.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/countdown.tsx","./src/components/floatingnav.tsx","./src/components/gallery.tsx","./src/components/hero.tsx","./src/components/musictoggle.tsx","./src/components/rsvpform.tsx","./src/components/timeline.tsx","./src/data/invitation.ts"],"version":"5.9.3"}
