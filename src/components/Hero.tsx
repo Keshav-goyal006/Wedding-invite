@@ -62,6 +62,7 @@ export default function Hero() {
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 0.8 } }}
           >
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,248,199,0.92),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(245,191,40,0.3),transparent_28%),url('/hd-aesthetic-sunflower-field-iphone.jpg')] bg-cover bg-center opacity-55 brightness-110 saturate-125 mix-blend-screen" />
             <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden opacity-100">
               <img
                 src="/red-flower-bloom-golden-glitter-flower-frame-border.png"
@@ -119,7 +120,7 @@ export default function Hero() {
               animate="show"
             >
               <motion.div variants={riseIn} className="relative mx-auto max-w-sm overflow-hidden rounded-[1.9rem] border border-white/75 bg-white/50 p-6 text-center shadow-soft backdrop-blur-md">
-                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,248,199,0.92),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(245,191,40,0.3),transparent_28%),url('/hd-aesthetic-sunflower-field-iphone.jpg')] bg-cover bg-center opacity-55 brightness-110 saturate-125 mix-blend-screen" />
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.38),transparent_42%),radial-gradient(circle_at_bottom_right,rgba(255,236,191,0.22),transparent_34%)]" />
                 <div className="relative z-10">
                   <img
                     src="/—Pngtree—lord ganesha face with orange_17414785.png"
