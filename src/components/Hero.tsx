@@ -62,15 +62,15 @@ export default function Hero() {
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 0.8 } }}
           >
-            <div className="pointer-events-none absolute inset-0 p-3 opacity-100 sm:p-6">
+            <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden opacity-100">
               <img
                 src="/red-flower-bloom-golden-glitter-flower-frame-border.png"
                 alt="Floral border frame"
-                className="h-full w-full rounded-[1.5rem] object-contain object-center sm:rounded-[2rem]"
+                className="h-full w-full object-fill"
               />
             </div>
-            <motion.div className="relative flex min-h-screen w-full items-center justify-center px-4" variants={pageStagger} initial="hidden" animate="show">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.2),transparent_35%),radial-gradient(circle_at_bottom,rgba(120,92,63,0.14),transparent_28%)]" />
+            <motion.div className="relative z-10 flex min-h-screen w-full items-center justify-center px-4" variants={pageStagger} initial="hidden" animate="show">
+              <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.2),transparent_35%),radial-gradient(circle_at_bottom,rgba(120,92,63,0.14),transparent_28%)]" />
               <div className="relative z-10 flex w-full max-w-[24rem] flex-col items-center">
                 <motion.div
                   className="relative z-10 mb-8 w-full max-w-sm"
