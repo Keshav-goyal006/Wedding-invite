@@ -42,7 +42,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen overflow-hidden bg-[#f4f1ea] bg-[url('https://www.transparenttextures.com/patterns/old-wall.png')] bg-cover bg-center text-cocoa"
+      className="relative min-h-screen overflow-hidden bg-[#f4f1ea] text-cocoa"
     >
       <motion.div
         className="absolute left-8 top-24 h-36 w-36 rounded-full bg-ivory-300/40 blur-3xl"
@@ -58,11 +58,11 @@ export default function Hero() {
       <AnimatePresence>
         {isIntroOpen ? (
           <motion.div
-            className="absolute inset-0 z-40 flex items-center justify-center overflow-hidden bg-[#f4f1ea] bg-[url('https://www.transparenttextures.com/patterns/old-wall.png')] bg-cover bg-center"
+            className="absolute inset-0 z-40 flex items-center justify-center overflow-hidden bg-[#f4f1ea]"
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 0.8 } }}
           >
-            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,248,199,0.92),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(245,191,40,0.3),transparent_28%),url('/hd-aesthetic-sunflower-field-iphone.jpg')] bg-cover bg-center opacity-55 brightness-110 saturate-125 mix-blend-screen" />
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,248,199,0.92),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(245,191,40,0.3),transparent_28%),url('/hd-aesthetic-sunflower-field-iphone.jpg')] bg-cover bg-center opacity-65 brightness-110 saturate-125 mix-blend-screen" />
             <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden opacity-100">
               <img
                 src="/red-flower-bloom-golden-glitter-flower-frame-border.png"
