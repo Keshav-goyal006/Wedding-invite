@@ -119,6 +119,11 @@ export default function Hero() {
               animate="show"
             >
               <motion.div variants={riseIn} className="mx-auto max-w-sm rounded-[1.9rem] border border-white/75 bg-white/50 p-6 text-center shadow-soft backdrop-blur-md">
+                <img
+                  src="/—Pngtree—lord ganesha face with orange_17414785.png"
+                  alt="Lord Ganesha face"
+                  className="mx-auto mb-4 h-20 w-20 object-contain sm:h-24 sm:w-24"
+                />
                 <h1 className="font-script text-5xl leading-none text-cocoa sm:text-6xl">
                   {groomName} &amp; {brideName}
                 </h1>
