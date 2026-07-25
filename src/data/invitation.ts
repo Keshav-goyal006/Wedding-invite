@@ -14,7 +14,7 @@ export const scheduleEvents = [
     date: 'Saturday, August 15, 2026',
     time: '11:00 AM',
     location: 'Hotel Yadvindra Dream',
-    address: 'Patiala Gate, Sangrur',
+    address: 'Patiala Bypass, Sangrur',
     description: '',
     mapUrl: 'https://maps.app.goo.gl/tu6ncKXEnGLMojQDA',
   },
