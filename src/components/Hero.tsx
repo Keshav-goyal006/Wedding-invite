@@ -44,6 +44,14 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen overflow-hidden bg-[#f4f1ea] text-cocoa"
     >
+      <div className="pointer-events-none absolute inset-0 z-0">
+        <img
+          src="/hd-aesthetic-sunflower-field-iphone.jpg"
+          alt="Sunflower background"
+          className="h-full w-full object-cover object-center opacity-95"
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,250,230,0.18)_0%,rgba(255,246,214,0.12)_40%,rgba(245,239,214,0.2)_100%)]" />
+      </div>
       <motion.div
         className="absolute left-8 top-24 h-36 w-36 rounded-full bg-ivory-300/40 blur-3xl"
         animate={{ y: [0, 18, 0], x: [0, 8, 0] }}
@@ -58,12 +66,12 @@ export default function Hero() {
       <AnimatePresence>
         {isIntroOpen ? (
           <motion.div
-            className="absolute inset-0 z-40 flex items-center justify-center overflow-hidden bg-[#f4f1ea]"
+            className="absolute inset-0 z-40 flex items-center justify-center overflow-hidden bg-[#f4f1ea]/20"
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 0.8 } }}
           >
-            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,248,199,0.92),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(245,191,40,0.3),transparent_28%),url('/hd-aesthetic-sunflower-field-iphone.jpg')] bg-cover bg-center opacity-65 brightness-110 saturate-125 mix-blend-screen" />
-            <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden opacity-100">
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,250,225,0.08),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(245,191,40,0.12),transparent_30%)]" />
+            <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden opacity-70">
               <img
                 src="/red-flower-bloom-golden-glitter-flower-frame-border.png"
                 alt="Floral border frame"
@@ -119,8 +127,8 @@ export default function Hero() {
               initial="hidden"
               animate="show"
             >
-              <motion.div variants={riseIn} className="relative mx-auto max-w-sm overflow-hidden rounded-[1.9rem] border border-white/75 bg-white/50 p-6 text-center shadow-soft backdrop-blur-md">
-                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.38),transparent_42%),radial-gradient(circle_at_bottom_right,rgba(255,236,191,0.22),transparent_34%)]" />
+              <motion.div variants={riseIn} className="relative mx-auto max-w-sm overflow-hidden rounded-[1.9rem] border border-white/75 bg-white/22 p-6 text-center shadow-soft backdrop-blur-md">
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.2),transparent_45%),radial-gradient(circle_at_bottom_right,rgba(255,236,191,0.12),transparent_36%)]" />
                 <div className="relative z-10">
                   <img
                     src="/—Pngtree—lord ganesha face with orange_17414785.png"

@@ -6,7 +6,7 @@ export const coupleNames = 'Saujanay & Manvi';
 
 export const weddingDate = '2026-08-15T11:00:00';
 
-export const heroQuote = '“With blessings of our families, we take the first step of this sacred journey together.”';
+export const heroQuote = '“With blessings of Almighty God and our families, we take the first step of this sacred journey together.”';
 
 export const scheduleEvents = [
   {
