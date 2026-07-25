@@ -40,7 +40,7 @@ export default function Countdown() {
 
   return (
     <section id="countdown" className="relative mx-auto max-w-md px-4 py-10">
-      <div className="pointer-events-none absolute inset-0 rounded-[2rem] bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.78),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(244,214,232,0.32),transparent_30%),url('https://images.unsplash.com/photo-1500573465252-9846813b1f34?auto=format&fit=crop&w=900&q=80')] bg-cover bg-center opacity-[0.18]" />
+      <div className="pointer-events-none absolute inset-0 rounded-[2rem] bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.86),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(244,214,232,0.46),transparent_28%),url('https://source.unsplash.com/featured/900x1200/?lilies,flowers')] bg-cover bg-center opacity-[0.2] brightness-110 saturate-110" />
       <motion.div variants={riseIn} initial="hidden" whileInView="show" viewport={{ once: true, margin: '-120px' }}>
         <div className="relative overflow-hidden rounded-[1.9rem] border border-white/70 bg-white/65 p-6 shadow-soft backdrop-blur-md">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.45),transparent_40%),radial-gradient(circle_at_bottom,rgba(245,226,238,0.42),transparent_34%)]" />
