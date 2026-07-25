@@ -85,14 +85,23 @@ export default function Hero() {
                 </motion.div>
 
                 <motion.div className="relative z-10 mt-12 w-full max-w-[19rem] text-center mix-blend-multiply text-[#3e3427]" variants={riseIn}>
-                  <p className="mb-4 font-serif text-xs font-semibold uppercase tracking-[0.3em] text-[#3e3427]">A HEARTFELT INVITATION</p>
-                  <h2 className="mb-6 font-script text-5xl font-semibold text-[#3e3427]">Tap the seal</h2>
-                  <p className="mb-2 font-serif text-sm font-semibold uppercase tracking-widest text-[#3e3427]">
-                    OPEN THE ENVELOPE TO REVEAL
-                    <br />
-                    THE CELEBRATION
-                  </p>
-                  <p className="mt-6 font-serif text-xs font-semibold uppercase tracking-widest text-[#3e3427]">DRESS CODE: FULL INDIAN ETHNIC</p>
+                  <div className="pointer-events-none absolute inset-x-[-1.2rem] inset-y-[-1.4rem] -z-10 opacity-90">
+                    <img
+                      src="/red-flower-bloom-golden-glitter-flower-frame-border.png"
+                      alt="Floral border frame"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                  <div className="relative z-10 px-6 py-7">
+                    <p className="mb-4 font-serif text-xs font-semibold uppercase tracking-[0.3em] text-[#3e3427]">A HEARTFELT INVITATION</p>
+                    <h2 className="mb-6 font-script text-5xl font-semibold text-[#3e3427]">Tap the seal</h2>
+                    <p className="mb-2 font-serif text-sm font-semibold uppercase tracking-widest text-[#3e3427]">
+                      OPEN THE ENVELOPE TO REVEAL
+                      <br />
+                      THE CELEBRATION
+                    </p>
+                    <p className="mt-6 font-serif text-xs font-semibold uppercase tracking-widest text-[#3e3427]">DRESS CODE: FULL INDIAN ETHNIC</p>
+                  </div>
                 </motion.div>
               </div>
             </motion.div>
