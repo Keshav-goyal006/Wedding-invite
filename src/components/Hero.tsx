@@ -62,11 +62,11 @@ export default function Hero() {
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 0.8 } }}
           >
-            <div className="pointer-events-none absolute inset-0 opacity-90">
+            <div className="pointer-events-none absolute inset-0 p-2 opacity-90 sm:p-5">
               <img
                 src="/red-flower-bloom-golden-glitter-flower-frame-border.png"
                 alt="Floral border frame"
-                className="h-full w-full object-cover"
+                className="h-full w-full rounded-[1.5rem] object-cover sm:rounded-[2rem]"
               />
             </div>
             <motion.div className="relative flex min-h-screen w-full items-center justify-center px-4" variants={pageStagger} initial="hidden" animate="show">
