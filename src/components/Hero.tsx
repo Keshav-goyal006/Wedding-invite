@@ -118,28 +118,31 @@ export default function Hero() {
               initial="hidden"
               animate="show"
             >
-              <motion.div variants={riseIn} className="mx-auto max-w-sm rounded-[1.9rem] border border-white/75 bg-white/50 p-6 text-center shadow-soft backdrop-blur-md">
-                <img
-                  src="/—Pngtree—lord ganesha face with orange_17414785.png"
-                  alt="Lord Ganesha face"
-                  className="mx-auto mb-4 h-20 w-20 object-contain sm:h-24 sm:w-24"
-                />
-                <h1 className="font-script text-5xl leading-none text-cocoa sm:text-6xl">
-                  {groomName} &amp; {brideName}
-                </h1>
-                <p className="font-serif text-xs uppercase tracking-[0.42em] text-ivory-500">A romantic celebration</p>
-                <h2 className="mt-4 font-script text-5xl leading-none text-cocoa">A heartfelt invitation</h2>
-                <p className="mt-4 font-serif text-xl leading-relaxed text-cocoa/80">
-                  {formattedDate}
-                  <span className="mx-3 text-ivory-400">•</span>
-                  {heroQuote}
-                </p>
-                <p className="mt-5 text-sm leading-7 text-cocoa/70">
-                  We are delighted to invite you into a noon of blessings and celebrations, lush florals, and the kind of joy that lingers long after the last dance.
-                </p>
-                <p className="mt-2 text-sm font-semibold uppercase tracking-[0.28em] text-cocoa/70">
-                  Dress Code: Full Indian Ethnic
-                </p>
+              <motion.div variants={riseIn} className="relative mx-auto max-w-sm overflow-hidden rounded-[1.9rem] border border-white/75 bg-white/50 p-6 text-center shadow-soft backdrop-blur-md">
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,241,167,0.7),transparent_38%),radial-gradient(circle_at_bottom_right,rgba(247,191,47,0.25),transparent_30%),url('https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=900&q=80')] bg-cover bg-center opacity-35 mix-blend-screen" />
+                <div className="relative z-10">
+                  <img
+                    src="/—Pngtree—lord ganesha face with orange_17414785.png"
+                    alt="Lord Ganesha face"
+                    className="mx-auto mb-4 h-20 w-20 object-contain sm:h-24 sm:w-24"
+                  />
+                  <h1 className="font-script text-5xl leading-none text-cocoa sm:text-6xl">
+                    {groomName} &amp; {brideName}
+                  </h1>
+                  <p className="font-serif text-xs uppercase tracking-[0.42em] text-ivory-500">A romantic celebration</p>
+                  <h2 className="mt-4 font-script text-5xl leading-none text-cocoa">A heartfelt invitation</h2>
+                  <p className="mt-4 font-serif text-xl leading-relaxed text-cocoa/80">
+                    {formattedDate}
+                    <span className="mx-3 text-ivory-400">•</span>
+                    {heroQuote}
+                  </p>
+                  <p className="mt-5 text-sm leading-7 text-cocoa/70">
+                    We are delighted to invite you into a noon of blessings and celebrations, lush florals, and the kind of joy that lingers long after the last dance.
+                  </p>
+                  <p className="mt-2 text-sm font-semibold uppercase tracking-[0.28em] text-cocoa/70">
+                    Dress Code: Full Indian Ethnic
+                  </p>
+                </div>
               </motion.div>
             </motion.div>
           </div>
